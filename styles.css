@@ -1,0 +1,73 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    padding: 40px;
+}
+
+/* CONTENEDOR */
+.container {
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* TITULO */
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* FORMULARIO */
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* INPUT */
+input {
+    flex: 1;
+    padding: 10px;
+}
+
+/* BOTONES */
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* LISTA */
+ul {
+    list-style: none;
+}
+
+/* TAREA */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #e5e7eb;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+}
+
+/* MENSAJES */
+#message {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
