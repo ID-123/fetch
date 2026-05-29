@@ -7,9 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Mini Gestor de Tareas</title>
-
-    <!-- Conexión con CSS -->
-    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
@@ -25,9 +22,19 @@
         <!-- Botón agregar -->
         <button type="submit">Agregar</button>
       </form>
+      <button id="completeSelectedBtn">Completar seleccionadas</button>
+      <button id="deleteSelectedBtn">Eliminar seleccionadas</button>
+
+      <div class="select-all-container">
+        <input type="checkbox" id="selectAll" />
+
+        <label for="selectAll"> Seleccionar todas </label>
+      </div>
 
       <!-- Mensajes dinámicos -->
+
       <p id="message"></p>
+      <p id="loading"></p>
 
       <!-- Lista de tareas -->
       <ul id="taskList"></ul>
@@ -37,6 +44,6 @@
     </main>
 
     <!-- Conexión con JavaScript -->
-    <script src="app.js"></script>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
